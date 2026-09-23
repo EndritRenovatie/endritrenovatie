@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Endrit Renovatie | Renovatie, Afbraak & Cleaning</title>
-  <meta name="description" content="Endrit Renovatie voor binnen- en buitenrenovatie, afbraakwerken en cleaning in heel België. Vraag vrijblijvend een offerte aan.">
+  <title>Endrit Renovatie | Binnen & Buiten</title>
+  <meta name="description" content="Endrit Renovatie - renovatie binnen en buiten, afbraakwerken en cleaning. Actief in heel België.">
 
   <style>
     * {
@@ -16,199 +16,130 @@
 
     body {
       font-family: Arial, sans-serif;
-      color: #222;
-      background: #fff;
+      background: #0b0b0b;
+      color: #ffffff;
       line-height: 1.6;
     }
 
     header {
-      background: #171717;
-      color: white;
-      padding: 22px 8%;
+      background: #111111;
+      padding: 20px 7%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
+      border-bottom: 1px solid #c89b3c;
     }
 
-    header h1 {
+    .brand {
+      color: #d6ad55;
       font-size: 25px;
+      font-weight: bold;
       letter-spacing: 1px;
     }
 
     nav a {
-      color: white;
+      color: #ffffff;
       text-decoration: none;
-      margin-left: 22px;
+      margin-left: 20px;
+    }
+
+    nav a:hover {
+      color: #d6ad55;
     }
 
     .hero {
-      background: #262626;
-      color: white;
       text-align: center;
-      padding: 100px 20px;
+      padding: 90px 20px;
+      background: linear-gradient(135deg, #080808, #242424);
+    }
+
+    .hero h1 {
+      color: #d6ad55;
+      font-size: 46px;
+      margin-bottom: 8px;
     }
 
     .hero h2 {
-      font-size: 42px;
+      font-size: 30px;
       margin-bottom: 15px;
     }
 
     .hero p {
-      font-size: 20px;
-      margin-bottom: 30px;
+      font-size: 19px;
+      margin-bottom: 8px;
     }
 
     .button {
       display: inline-block;
-      background: white;
-      color: #171717;
-      padding: 14px 25px;
-      margin: 6px;
-      border-radius: 5px;
+      background: #d6ad55;
+      color: #111111;
+      padding: 13px 22px;
+      margin: 15px 5px 0;
+      border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
     }
 
     section {
-      padding: 70px 8%;
+      padding: 65px 8%;
     }
 
     section h2 {
       text-align: center;
+      color: #d6ad55;
       font-size: 32px;
-      margin-bottom: 40px;
+      margin-bottom: 35px;
     }
 
     .services {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 25px;
+      gap: 20px;
     }
 
     .service {
-      padding: 30px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
+      background: #171717;
+      border: 1px solid #3c3425;
+      padding: 28px 20px;
+      border-radius: 10px;
       text-align: center;
     }
 
     .service h3 {
+      color: #d6ad55;
       margin-bottom: 12px;
     }
 
     .about {
-      background: #f5f5f5;
+      background: #141414;
       text-align: center;
+    }
+
+    .about p {
+      max-width: 850px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .emergency {
+      margin-top: 25px !important;
+      color: #d6ad55;
+      font-weight: bold;
     }
 
     .contact {
       text-align: center;
     }
 
+    .contact p {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+
     .contact a {
-      color: #222;
-      font-weight: bold;
+      color: #d6ad55;
+      text-decoration: none;
     }
 
-    footer {
-      background: #171717;
-      color: white;
-      text-align: center;
-      padding: 25px;
-    }
-
-    @media (max-width: 600px) {
-      .hero h2 {
-        font-size: 32px;
-      }
-
-      nav {
-        margin-top: 15px;
-      }
-
-      nav a {
-        margin: 0 10px 0 0;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-<header>
-  <h1>ENDRIT RENOVATIE</h1>
-  <nav>
-    <a href="#diensten">Diensten</a>
-    <a href="#over-ons">Over ons</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
-<div class="hero">
-  <h2>Binnen & Buiten</h2>
-  <p>Renovatie • Afbraakwerken • Cleaning</p>
-  <p>Professionele service in heel België 🇧🇪</p>
-
-  <a class="button" href="tel:+32492575555">Bel ons</a>
-  <a class="button" href="mailto:info@endritrenovatie.be">Offerte aanvragen</a>
-</div>
-
-<section id="diensten">
-  <h2>Onze diensten</h2>
-
-  <div class="services">
-
-    <div class="service">
-      <h3>🏠 Renovatie</h3>
-      <p>Binnen- en buitenrenovatie voor woningen, appartementen en andere ruimtes.</p>
-    </div>
-
-    <div class="service">
-      <h3>🔨 Afbraakwerken</h3>
-      <p>Manuele en lichte afbraakwerken voor renovatieprojecten.</p>
-    </div>
-
-    <div class="service">
-      <h3>🧹 Cleaning</h3>
-      <p>Reiniging van woningen, appartementen, kantoren en gebouwen, inclusief na renovatiewerken.</p>
-    </div>
-
-  </div>
-</section>
-
-<section id="over-ons" class="about">
-  <h2>Endrit Renovatie</h2>
-
-  <p>
-    Voor renovatie, afbraakwerken en cleaning kunt u rekenen op
-    Endrit Renovatie. Wij werken zorgvuldig en zoeken samen met u
-    naar een passende oplossing voor uw project.
-  </p>
-
-  <br>
-
-  <strong>Heel België 🇧🇪</strong>
-</section>
-
-<section id="contact" class="contact">
-  <h2>Contact & Offerte</h2>
-
-  <p>Heeft u een renovatieproject of wilt u een vrijblijvende offerte?</p>
-
-  <br>
-
-  <p>📞 <a href="tel:+32492575555">+32 492 57 55 55</a></p>
-  <p>✉️ <a href="mailto:info@endritrenovatie.be">info@endritrenovatie.be</a></p>
-
-  <br>
-
-  <a class="button" href="mailto:info@endritrenovatie.be">Vraag een offerte aan</a>
-</section>
-
-<footer>
-  © 2026 Endrit Renovatie • Binnen & Buiten • Afbraakwerken • Cleaning
-</footer>
-
-</body>
-</html>
+   
